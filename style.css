@@ -19,7 +19,7 @@ nav{
 
 }
 nav h1 span{
-    color:#fd0a1e;
+    color:#FD6E0A;
 }
 nav ul li{
     display:inline;
@@ -76,9 +76,9 @@ border-radius: 5px;
     display:flex;
     padding:100px 0px 0px 300px;
     align-items: center;
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png),url(images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
     justify-content: space-between;
 
 }
