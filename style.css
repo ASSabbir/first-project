@@ -1,7 +1,7 @@
 body {
     margin:0px;
     padding:0px;
-    background-image: linear-gradient(to right, rgba());
+
     background-image: linear-gradient(to right, #FFEFBA, #FFFFFF);
     font-family: 'Manrope', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -10,6 +10,7 @@ nav{
     display:flex;
     text-align: center;
     justify-content: space-between;
+    padding:0px 150px;
 }
 .logo{
     margin:20px;
@@ -47,4 +48,40 @@ border: none;
 border-radius: 5px;
 
 
+}
+.dbutton{
+    color: var(--White-Color, #FFF);
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: #FD6E0A;
+padding:18px 35px;
+border: none;
+border-radius: 5px;
+
+}
+.cbutton{
+    color: #FD6E0A;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: transparent;
+padding:18px 35px;
+border: solid;
+border-radius: 5px;
+}
+.banner{
+    display:flex;
+    padding:100px 0px 0px 300px;
+    align-items: center;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+
+}
+.bgpic{
+    width: 1000px;
 }
