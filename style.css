@@ -100,6 +100,7 @@ header{
 .alltitle{
     font-size: 30px;
     color: rgb(83, 83, 83);
+    text-align: center;
 }
 .adress{
     display: flex;
@@ -116,4 +117,25 @@ header{
     font-size:18px;
     font-weight:650;
     color:rgb(71, 71, 71);
+}
+.dotitle{
+    text-align: center;
+    margin:0px 200px;
+    padding:0px 200px;
+    border-radius: 10px;
+     padding-bottom: 30px;
+    padding-top: 20px;
+}
+.skills{
+    display:flex;
+    gap:20px;
+    justify-content: space-around;
+    margin:0px 170px;
+
+}
+.skillname{
+    width: 200px;
+    background-color: #ece7e7;
+    padding:20px 20px;
+    border-radius: 5px;
 }
